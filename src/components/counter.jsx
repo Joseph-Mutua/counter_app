@@ -8,7 +8,7 @@ class Counter extends Component {
 
   state = {
     count: 1,
-    tags: ["tag1", "tag2", "tag3"],
+    // tags: ["tag1", "tag2", "tag3"],
   };
 
   // renderTags() {
@@ -52,11 +52,11 @@ class Counter extends Component {
         >
           Increment
         </button>
-        <ul>
+        {/* <ul>
           {this.state.tags.map((tag) => (
             <li key={tag}>{tag}</li>
           ))}
-        </ul>
+        </ul> */}
       </React.Fragment>
     );
   }
