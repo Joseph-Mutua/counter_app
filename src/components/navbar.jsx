@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
-class NavBar extends Component {
-  render() {
+//Stateless Functional Component
+
+const NavBar = (props) => {
     return (
       <nav className="navbar navbar-light bg-light">
         <a className="navbar-brand" href="#">
@@ -12,7 +13,8 @@ class NavBar extends Component {
         </a>
       </nav>
     );
-  }
 }
+
+
 
 export default NavBar;
